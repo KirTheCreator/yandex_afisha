@@ -43,21 +43,3 @@
 ## Стек
 
 Python, pandas, sqlalchemy, matplotlib, seaborn, SQL, phik
-
-## Как запустить проект
-
-1. Склонируйте репозиторий и перейдите в его папку.
-2. Установите зависимости:
-   ```
-   pip install -r requirements.txt
-   ```
-3. Скопируйте `.env.example` в `.env` и заполните реальными параметрами подключения к базе данных:
-   ```
-   cp .env.example .env
-   ```
-4. Запустите Jupyter Notebook:
-   ```
-   jupyter notebook afisha_loyalty_analysis.ipynb
-   ```
-
-Файл `.env` содержит чувствительные данные (логин/пароль от БД) и не должен попадать в репозиторий — он уже добавлен в `.gitignore`.
